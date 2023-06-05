@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Vida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500" style="border: 1px solid black"></canvas>
+
+    <div class="container-button">
+        <button class="btn btn-success" type="button" id="start">Comerçar</button>
+        <button class="btn btn-danger" type="button" id="stop">Parar</button>
+        <button class="btn btn-info" type="clear" id="clear" style="color: #fefefe">Limpar</button>
+    </div>
+    <script src="canvas.js"></script>
+    <script src="random.js"></script>
+    <script src="gameLife.js"></script>
+</body>
+</html>
